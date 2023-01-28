@@ -1,5 +1,4 @@
 # Infinitum
- ## YORKU TERM PROJECT
 ### User Stories
 1. As a patient, want to be able to access important files and lab results to watch my medical progress. 
    
@@ -10,3 +9,8 @@
 4. As a lab technician, I want to upload lab results into a singular database so that all files remain organized and labs can be completed in a timely matter. 
 
 5. As a Telehealth provider, I want to be able to access files/lab results with ease so that information is up to date and appointments can be completed. 
+   
+
+ 
+### [FIGMA](https://www.figma.com/file/Hjr3E0o9ygcAWvzCje8waA/Untitled?node-id=0%3A1&t=U7jJoqYthjWmaSXo-1)
+
