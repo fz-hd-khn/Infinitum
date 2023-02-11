@@ -1,7 +1,11 @@
 body {
   margin: 0px;
+  min-height: 100vh;
 }
-
+.content-container {
+  display: flex;
+  min-height: 100vh;
+}
 .top-bar {
   display: flex;
   background-color: #cae9ff;
@@ -26,13 +30,33 @@ body {
   width: 35px;
 }
 .sidebar {
-  background-color: #afdaf8;
-  width: 180px;
+  background-color: #a8e0ff;
+  min-width: 180px;
+  display: flex;
 }
 .sidebar-container {
   display: flex;
   flex-direction: column;
+  display: flex;
 }
 .sidebar-container > div {
   padding: 20px;
+}
+@media only screen and (max-width: 1100px) {
+  .content-container {
+    flex-direction: column-reverse;
+    min-height: calc(100vh - 46px);
+  }
+  .sidebar {
+    height: 50px;
+  }
+  .sidebar-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
 }
