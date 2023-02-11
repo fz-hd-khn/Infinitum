@@ -1,3 +1,38 @@
+body {
+  margin: 0px;
+}
+
 .top-bar {
-    BACKGROUND-COLOR: #CAE9FF;
+  display: flex;
+  background-color: #cae9ff;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.infinitum > h2 {
+  margin: 0px;
+}
+
+.login-icon > img {
+  width: 30px;
+  height: 30px;
+}
+.logo > img {
+  height: 20px;
+  width: 35px;
+}
+.sidebar {
+  background-color: #afdaf8;
+  width: 180px;
+}
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-container > div {
+  padding: 20px;
 }
