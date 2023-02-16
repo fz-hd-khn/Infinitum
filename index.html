@@ -9,30 +9,66 @@
 
   <body>
     <header>
-      <div class="top-bar">
-        <div class="logo align-center">
-          <img src="assets/infinitum logo.png" alt="infinitum logo" />
-        </div>
-        <div class="infinitum">
-          <h2>Infinitum</h2>
-        </div>
-        <div class="login-icon align-center">
-          <img src="assets/sign in.png" alt="arrow sign in icon" />
-        </div>
-      </div>
+      <ul id="top-bar" class="top-bar">
+          <li class="logo align-center">
+            <img src="assets/infinitum logo.png" alt="infinitum logo" />
+          </li>
+          <li class="infinitum">
+            <h2>Infinitum</h2>
+          </li>
+          <li class="login-icon align-center">
+            <img src="assets/sign in.png" alt="arrow sign in icon" />
+          </li>
+        </ul>
+      </ul>
     </header>
-    <div class="content-container">
+    <div id="Content Container" class="content-container">
       <div class="sidebar">
-        <div class="sidebar-container">
-          <div>Labs</div>
-          <div>Health Aids</div>
-          <div>Patient Notes</div>
-          <div>Perscriptions</div>
-          <div>Medical Contacts</div>
-          <div>Wellness Schedule</div>
+        <ul class="sidebar-container">
+            <li>Labs</li>
+            <li>Health Aids</li>
+            <li>Patient Notes</li>
+            <li>Perscriptions</li>
+            <li>Medical Contacts</li>
+            <li>Wellness Schedule</li>
+          </ul>
+        </ul>
+      </div>
+      <div class="content">
+        <ul class="circular-buttons-container">
+          <li class="circular-button">
+            <img src="assets/vial.png" alt="vial icon" />
+            <span> Lab/Diagnostic Results </span>
+           </li>
+          <li class="circular-button">
+            <img src="assets/clipboard.png" alt="clipboard icon"/>
+            <span> Review Last Appointment</span>
+          </li>
+          <li class="circular-button"> 
+            <img src="assets/calendar-icon.png" alt="calendar icon"/>
+            <span>Upcoming Appointments </span>
+          </li>
+          <li class="circular-button">
+            <img src="assets/doctorsnote-icon.png" alt="doctors note icon"/>
+            <span>Doctor's Notes </span>
+          </li>
+          <li class="circular-button">
+             <img src="assets/pill.png" alt="pill icon"/> 
+             <span>Prescriptions </span>
+          </li>
+        </ul>
+        <div class="dashboard-bar">Dashboard</div>
+        <div class="dashboard-content">
+          <div class="general-info-content"> Info
+            <span>Health Card #</span>
+            <span class="info">Height</span>
+            <span class="info">Weight</span>
+            <span class="info">Health Conditions</span>
+            <span class="info">Medications</span>
+            <span class="info">Family Doctor: Location, Phone Number & Practice # </span>
+          </div>
         </div>
       </div>
-      <div class="content"></div>
     </div>
   </body>
 </html>
