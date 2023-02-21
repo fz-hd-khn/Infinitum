@@ -7,7 +7,7 @@
 
 .tablet-content > div {
   border-radius: 20px;
-  padding: 15px;
+  padding: 10px;
   background-color: #d9d9d9;
   display: flex;
 }
@@ -39,6 +39,10 @@
   height: 100px;
   width: 100px;
 }
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
 
 /* Middle portion */
 .middle-portion {
@@ -47,23 +51,53 @@
 .middle-portion > div {
   flex: 1;
   background-color: #c1bdbd;
-  padding: 10px;
+  padding: 5px;
   border-radius: 25px;
 }
 .middle-portion .header {
+  text-align: center;
+  padding: 5px;
   text-align: center;
 }
 
 .middle-portion > .upcoming-appointments ul {
   display: flex;
   flex-direction: column;
-  list-style: circle;
+  list-style: none;
   padding: revert;
 }
-
 /* End portion */
-.end-portion {
-  background-color: rgb(79, 86, 68);
+.tablet-content .end-portion1 {
+  background-color: transparent;
+}
+.end-portion1 {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+.tablet-content .end-portion2 {
+  background-color: transparent;
+}
+.end-portion2 {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  align-items: center;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+.buttons > img {
+  height: 100px;
+  width: 100px;
 }
 
 @media only screen and (max-width: 1100px) {

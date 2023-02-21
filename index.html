@@ -10,59 +10,88 @@
   <body>
     <header>
       <ul id="top-bar" class="top-bar">
-          <li class="logo align-center">
-            <img src="assets/infinitum logo.png" alt="infinitum logo" />
-          </li>
-          <li class="infinitum">
-            <h2>Infinitum</h2>
-          </li>
-          <li class="login-icon align-center">
-            <img src="assets/sign in.png" alt="arrow sign in icon" />
-          </li>
+        <li class="logo align-center">
+          <img src="assets/infinitum logo.png" alt="infinitum logo" />
+        </li>
+        <li class="infinitum">
+          <h2>Infinitum</h2>
+        </li>
+        <li class="login-icon align-center">
+          <img src="assets/sign in.png" alt="arrow sign in icon" />
+        </li>
       </ul>
     </header>
     <div class="tablet-content">
       <div class="top-portion">
         <div class="user-info">
-          top portion part 1
+          <span> “USER”, your last appointment was “__” days ago.</span>
+          <span>Summary:</span>
+          <span>Doctor: “_____”</span>
+          <span>Date & Time: “____”</span>
+          <span>Reason: “_____”</span>
         </div>
         <div class="quick-view">
           <div>
-            <img src="assets/quick-view.png" alt="">
+            <img src="assets/quick-view.png" alt="" />
           </div>
-          <div class="text">
-            Quickview
-          </div>
+          <div class="text">Quickview</div>
         </div>
       </div>
       <div class="middle-portion">
         <div class="upcoming-appointments">
-          <h3 class="header">
-            Upcoming appointments
-          </h3>
+          <div class="header"><b>Upcoming Appointments</b></div>
           <div>
-            <ul class="juka">
-              <li>Saturday 25th</li>
-              <li>Monday 26th</li>
+            <ul class="appointment-dates">
+              <li>XXXXX</li>
+              <li>XXXXX</li>
+              <li>XXXXX</li>
+              <li>XXXXX</li>
+              <li>XXXXX</li>
             </ul>
           </div>
         </div>
-        <div>Health trackers</div>
+        <div class="health trackers">
+          <div class="header"><b>Health Trackers </b></div>
+        </div>
       </div>
-      <div class="end-portion">
-        end portion
+      <div class="end-portion1">
+        <div class="buttons">
+          <img src="assets/user-profile.png" alt="user icon" />
+          "USER" Health Profile
+        </div>
+        <div class="buttons">
+          <img src="assets/files.png" alt="files icon" />
+          Files/Notes
+        </div>
+        <div class="buttons">
+          <img src="assets/vial.png" alt="vial icon" />
+          Lab Diagnostic Results
+        </div>
+      </div>
+      <div class="end-portion2">
+        <div class="buttons">
+          <img src="assets/pill.png" alt="Prescriptions icon" />
+          Prescriptions
+        </div>
+        <div class="buttons">
+          <img src="assets/doctorsnote-icon.png" alt="doctors note icon" />
+          Doctor's Notes
+        </div>
+        <div class="buttons">
+          <img src="assets/calendar-icon.png" alt="calendar icon" />
+          Appointment Schedule
+        </div>
       </div>
     </div>
     <div id="Content-Container" class="content-container">
       <div class="sidebar">
         <ul class="sidebar-container">
-            <li>Labs</li>
-            <li>Health Aids</li>
-            <li>Patient Notes</li>
-            <li>Perscriptions</li>
-            <li>Medical Contacts</li>
-            <li>Wellness Schedule</li>
-          </ul>
+          <li>Labs</li>
+          <li>Health Aids</li>
+          <li>Patient Notes</li>
+          <li>Perscriptions</li>
+          <li>Medical Contacts</li>
+          <li>Wellness Schedule</li>
         </ul>
       </div>
       <div class="content">
@@ -70,41 +99,47 @@
           <li class="circular-button">
             <img src="assets/vial.png" alt="vial icon" />
             <span> Lab/Diagnostic Results </span>
-           </li>
+          </li>
           <li class="circular-button">
-            <img src="assets/clipboard.png" alt="clipboard icon"/>
+            <img src="assets/clipboard.png" alt="clipboard icon" />
             <span> Review Last Appointment</span>
           </li>
-          <li class="circular-button"> 
-            <img src="assets/calendar-icon.png" alt="calendar icon"/>
+          <li class="circular-button">
+            <img src="assets/calendar-icon.png" alt="calendar icon" />
             <span>Upcoming Appointments </span>
           </li>
           <li class="circular-button">
-            <img src="assets/doctorsnote-icon.png" alt="doctors note icon"/>
+            <img src="assets/doctorsnote-icon.png" alt="doctors note icon" />
             <span>Doctor's Notes </span>
           </li>
           <li class="circular-button">
-             <img src="assets/pill.png" alt="pill icon"/> 
-             <span>Prescriptions </span>
+            <img src="assets/pill.png" alt="pill icon" />
+            <span>Prescriptions </span>
           </li>
         </ul>
         <div class="dashboard-bar">Dashboard</div>
         <div class="dashboard-content">
           <div class="information">
-            <div class="general-info-content"> <u>Info </u>
+            <div class="general-info-content">
+              <u>Info </u>
               <span class="info">Health Card # : XXXXXXXXXX</span>
               <span class="info">Height: XXXXX</span>
               <span class="info">Weight: XXXXX</span>
               <span class="info">Health Conditions: XXXXX</span>
               <span class="info">Medications: XXXXX</span>
-              <span class="info">Family Doctor: Location, Phone Number & Practice # </span>
+              <span class="info"
+                >Family Doctor: Location, Phone Number & Practice #
+              </span>
             </div>
             <div class="calendar">
-              <u>Calendar</u> 
-              <Span class="visits-header"><b>Past Visits</b>
+              <u>Calendar</u>
+              <span class="visits-header"
+                ><b>Past Visits</b>
                 <span>December 31, 2022 (Dr. Jones- Cardiology) </span>
-                <span> 30, 2023 (Dr.Smith, Ultrasound)</span></Span>
-              <span class="visits-header"> <b>Future Visits</b>
+                <span> 30, 2023 (Dr.Smith, Ultrasound)</span></span
+              >
+              <span class="visits-header">
+                <b>Future Visits</b>
                 <span>March 12,2023 (Family Doctor, General)</span>
               </span>
             </div>
