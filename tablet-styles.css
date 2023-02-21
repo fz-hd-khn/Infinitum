@@ -1,0 +1,76 @@
+.tablet-content {
+  display: none;
+  margin: 25px;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.tablet-content > div {
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #d9d9d9;
+  display: flex;
+}
+
+/* Top portion */
+.tablet-content > .top-portion {
+  gap: 10px;
+}
+
+.top-portion > .user-info {
+  display: flex;
+  flex: 1;
+  border-radius: 25px;
+}
+
+.top-portion > .quick-view {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  background-color: #c1bdbd;
+  padding: 10px;
+}
+
+.top-portion > .quick-view > .text {
+  text-align: center;
+}
+
+.top-portion > .quick-view > img {
+  height: 100px;
+  width: 100px;
+}
+
+/* Middle portion */
+.middle-portion {
+  gap: 10px;
+}
+.middle-portion > div {
+  flex: 1;
+  background-color: #c1bdbd;
+  padding: 10px;
+  border-radius: 25px;
+}
+.middle-portion .header {
+  text-align: center;
+}
+
+.middle-portion > .upcoming-appointments ul {
+  display: flex;
+  flex-direction: column;
+  list-style: circle;
+  padding: revert;
+}
+
+/* End portion */
+.end-portion {
+  background-color: rgb(79, 86, 68);
+}
+
+@media only screen and (max-width: 1100px) {
+}
+
+@media only screen and (max-width: 1024px) {
+  .tablet-content {
+    display: flex;
+  }
+}

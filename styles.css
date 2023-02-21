@@ -1,3 +1,5 @@
+@import "tablet-styles.css";
+
 body {
   margin: 0px;
   min-height: 100vh;
@@ -150,6 +152,7 @@ ul {
   border-radius: 25px;
   padding: 10px;
 }
+
 @media only screen and (max-width: 1100px) {
   .content-container {
     flex-direction: column-reverse;
@@ -164,8 +167,12 @@ ul {
     flex-direction: row;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   .sidebar {
+    display: none;
+  }
+  .content-container {
     display: none;
   }
 }
