@@ -22,13 +22,76 @@
       </ul>
     </header>
     <div class="mobile-content">
-      <div class="top-bar-mobile">top bar</div>
-      <div class="logo-piece">Your Health, to infinity</div>
+      <div class="top-bar-mobile">
+        <ul id="top-bar" class="top-bar">
+          <li class="logo align-center">
+            <img src="assets/infinitum logo.png" alt="infinitum logo" />
+          </li>
+          <li class="infinitum">
+            <h2>Infinitum</h2>
+          </li>
+          <li class="login-icon align-center">
+            <img src="assets/sign in.png" alt="arrow sign in icon" />
+          </li>
+          <li>
+            <nav role="navigation">
+              <div id="menuToggle">
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                <!-- <input type="checkbox" /> -->
+
+                <!--
+                Some spans to act as a hamburger.
+                
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+                <!-- <ul id="menu">
+                  <a href="#"><li>Home</li></a>
+                  <a href="#"><li>About</li></a>
+                  <a href="#"><li>Info</li></a>
+                  <a href="#"><li>Contact</li></a>
+                  <a href="https://erikterwan.com/" target="_blank"
+                    ><li>Show me more</li></a
+                  >
+                </ul> -->
+              </div>
+            </nav>
+          </li>
+        </ul>
+      </div>
+      <div class="logo-piece">
+        <img
+          src="assets/infi-mobile.PNG"
+          alt="Infinitum: Your health, to infinty." />
+      </div>
       <div class="lower-half">
-        <span class="mobile-buttons">Recent Labs </span>
-        <span class="mobile-buttons">Review Last Appointment</span>
-        <span class="mobile-buttons"> Prnt Prescriptions</span>
-        <span class="mobile-buttons"> Medication Tracker</span>
+        <span class="mobile-buttons"
+          ><img src="assets/vial.png" alt="vial image" />
+          <strong>Recent Labs (1 Unread)</strong>
+        </span>
+        <span class="mobile-buttons"
+          ><img src="assets/clipboard.png" alt="clipboard image" />
+          <strong> Last Appointment</strong></span
+        >
+        <span class="mobile-buttons"
+          ><img src="assets/pill.png" alt="pill image" />
+          <strong>Prescriptions</strong>
+        </span>
+        <span class="mobile-buttons"
+          ><img src="assets/checkmark.png" alt="" />
+          <strong>Medication Tracker</strong>
+        </span>
       </div>
     </div>
     <div class="tablet-content">
