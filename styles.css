@@ -246,6 +246,9 @@ ul {
 .inf-logo-center {
   align-items: center;
 }
+.slogan {
+  margin: 5px;
+}
 /*
 .logo-piece > img {
   height: 200px;
