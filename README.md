@@ -20,9 +20,10 @@
 
 Everyone has had appointments or times where a lab result has been delivered to a specialist but your family doctor doesn’t have access to it or when you need to fill form after form when going to walk in clinics or a new doctor. 
 
-*Infinitum* is meant to be a web app, that rivals current and future health apps that have downfalls such as: only certain physicians using them, needing a subscription and not having all of one’s health files in one place. *Infinitum* is meant to be a one stop shop for your health, where appointments can be kept track of, prescriptions easily pulled up on your phone and lab results being at yours and your healthcare providers fingertips. 
-*Infinitum* is meant to fill the gap between a healthcare provider and receiver so that communication is hiccup free, labs uploaded to one place for all specialists you may need to contact, and trackers for everyday health needs. 
+*Infinitum* is meant to be a web app that revolutionizes managing your health care. it will rival current and future health apps that have downfalls such as: only certain physicians using them, needing a subscription and not having all of one’s health files in one place. *Infinitum* is meant to streamline your healthcare and improve health outcomes by providing a comprehensive platform, where appointments can be kept track of, prescriptions easily pulled up on your phone and lab results being at yours and your healthcare providers fingertips. 
 
-*Infinitum* is a synchronized app where documents can be safely uploaded and viewed by patients and pulled up in a timely manner where doctors can access previous lab results or files and cross-reference instead of needing files faxed, for example. Infinitum is meant to provide ease and convenience for both parties.
+*Infinitum* aims to improve communication between healthcare providers and patients so that communication is hiccup free, labs uploaded to one place for all specialists you may need to contact, and trackers for everyday health needs. 
 
-*Infinitum* is for the everyday person allowing them to be more responsible for their medical progress, and be part of it every step of the way, from tracking medications to fitness goals. 
+*Infinitum* is a synchronized app where documents can be safely uploaded and viewed by patients and pulled up in a timely manner where doctors can access previous lab results or files and cross-reference instead of needing files faxed and reduces the risk of important information getting lost or misplaced. Infinitum is meant to provide ease and convenience for both parties.
+
+*Infinitum* is for the everyday person allowing them to be more responsible for their medical progress, and be part of it every step of the way, from tracking medications to fitness goals it is meant to help you be more involved in your healthcare. 
