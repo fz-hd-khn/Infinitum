@@ -6,11 +6,12 @@ body {
   margin: 0px;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url(assets/—Pngtree—health\ care\ gray\ cross\ light_1590824.png);
 }
 
 .top-bar {
   display: flex;
-  background-color: #cae9ff;
+  background-color: #7bacc6;
   flex-direction: row;
   justify-content: space-between;
   padding: 8px;
@@ -32,7 +33,7 @@ body {
   width: 35px;
 }
 .sidebar {
-  background-color: #a8e0ff;
+  background-color: #bdd6e3;
   min-width: 180px;
   display: flex;
 }
@@ -71,7 +72,7 @@ ul {
   min-height: calc(100vh - 46px);
 }
 .circular-button {
-  background-color: lightgrey;
+  background-color: #d9d9d9;
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -81,6 +82,9 @@ ul {
   box-sizing: border-box;
   align-items: center;
   text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #a8c7da;
 }
 .circular-button > span {
   width: 100px;
@@ -92,7 +96,7 @@ ul {
 }
 .dashboard-bar {
   display: flex;
-  background-color: #8ebcdd;
+  background-color: #d9d9d9;
   height: 35px;
   width: 120px;
   border-radius: 30px;
@@ -106,7 +110,7 @@ ul {
   padding: 5px;
 }
 .dashboard-content {
-  background-color: lightslategray;
+  background-color: #d9d9d9;
   display: flex;
   flex-grow: 1;
   padding: 15px;
@@ -122,14 +126,14 @@ ul {
   gap: 10px;
 }
 .general-info-content {
-  background-color: rgb(102, 133, 164);
+  background-color: #a8c7da;
   height: 200px;
   border-radius: 25px;
   padding: 15px;
   flex: 1;
 }
 .calendar {
-  background-color: rgb(102, 133, 164);
+  background-color: #a8c7da;
   height: 200px;
   border-radius: 25px;
   padding: 15px;
@@ -149,7 +153,7 @@ ul {
 .quick-access {
   display: flex;
   flex: 1;
-  background-color: rgb(102, 133, 164);
+  background-color: #a8c7da;
   border-radius: 25px;
   padding: 10px;
 }
@@ -206,19 +210,55 @@ ul {
 }
 .logo-piece {
   display: flex;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.circle1 {
+  background: #d9d9d9;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.circle2 {
+  background: #c1bdbd;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle3 {
+  background: #d9d9d9;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inf-logo-center {
+  align-items: center;
+}
+/*
 .logo-piece > img {
   height: 200px;
   width: 300px;
 }
+*/
 .lower-half {
   gap: 20px;
   display: flex;
   flex-direction: column;
 }
 .mobile-buttons {
-  background-color: lightblue;
+  background-color: #a8c7da;
   max-width: 400px;
   height: 105px;
   border-radius: 25px;
@@ -227,21 +267,14 @@ ul {
   flex-shrink: 1;
   display: flex;
   cursor: pointer;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #d9d9d9;
 }
 .mobile-buttons strong {
   padding-top: 30px;
   font-size: large;
 }
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
 
 #menuToggle {
   display: block;
@@ -261,7 +294,7 @@ ul {
 }
 
 #menuToggle a:hover {
-  color: tomato;
+  color: lightblue;
 }
 
 #menuToggle input {
@@ -273,16 +306,13 @@ ul {
   left: -5px;
 
   cursor: pointer;
-
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  /* hamburger css*/
+  opacity: 0;
+  z-index: 2;
 
   -webkit-touch-callout: none;
 }
 
-/*
-  * Just a quick hamburger
-  */
 #menuToggle span {
   display: block;
   width: 33px;
@@ -290,7 +320,7 @@ ul {
   margin-bottom: 5px;
   position: relative;
 
-  background: #cdcdcd;
+  background: #d9d9d9;
   border-radius: 3px;
 
   z-index: 1;
@@ -309,35 +339,21 @@ ul {
   transform-origin: 0% 100%;
 }
 
-/* 
-  * Transform all the slices of hamburger
-  * into a crossmark.
-  */
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
 }
 
-/*
-  * But let's hide the middle one.
-  */
 #menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
-  * Ohyeah and the last one should go the other direction
-  */
 #menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
-  * Make this absolute positioned
-  * at the top left of the screen
-  */
 #menu {
   position: absolute;
   width: 300px;
@@ -348,7 +364,6 @@ ul {
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
 
   transform-origin: 0% 0%;
   transform: translate(-210%, 0);
@@ -361,9 +376,6 @@ ul {
   font-size: 22px;
 }
 
-/*
-  * And let's slide it in from the left
-  */
 #menuToggle input:checked ~ ul {
   transform: none;
 }

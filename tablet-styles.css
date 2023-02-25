@@ -8,13 +8,17 @@
 .tablet-content > div {
   border-radius: 20px;
   padding: 10px;
-  background-color: #d9d9d9;
+  background-color: #a8c7da;
   display: flex;
 }
 
 /* Top portion */
 .tablet-content > .top-portion {
   gap: 10px;
+  background-color: #a8c7da;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 1px;
 }
 
 .top-portion > .user-info {
@@ -27,7 +31,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 25px;
-  background-color: #c1bdbd;
+  background-color: #d9d9d9;
   padding: 10px;
 }
 
@@ -47,10 +51,13 @@
 /* Middle portion */
 .middle-portion {
   gap: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a8c7da;
 }
 .middle-portion > div {
   flex: 1;
-  background-color: #c1bdbd;
+  background-color: #d9d9d9;
   padding: 5px;
   border-radius: 25px;
 }
@@ -88,12 +95,15 @@
 .buttons {
   display: flex;
   flex-direction: column;
-  background-color: lightgray;
+  background-color: #d9d9d9;
   align-items: center;
   border-radius: 15px;
   width: 150px;
   height: 150px;
   text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #a8c7da;
 }
 .buttons > img {
   height: 100px;
