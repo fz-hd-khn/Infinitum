@@ -26,4 +26,6 @@ Everyone has had appointments or times where a lab result has been delivered to 
 
 *Infinitum* is a synchronized app where documents can be safely uploaded and viewed by patients and pulled up in a timely manner where doctors can access previous lab results or files and cross-reference instead of needing files faxed and reduces the risk of important information getting lost or misplaced. Infinitum is meant to provide ease and convenience for both parties.
 
+*Infinitum*'s synchronized platform allows healthcare providers to easily access and cross-reference patients' medical records, reducing the risk of missed diagnoses or treatment errors and improving overall patient outcomes. Ease of upload of files also means traditional mechanical note taking and form filling won't be nmecessary saving time for more important matters.  
+
 *Infinitum* is for the everyday person allowing them to be more responsible for their medical progress, and be part of it every step of the way, from tracking medications to fitness goals it is meant to help you be more involved in your healthcare. 
