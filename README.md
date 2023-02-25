@@ -24,3 +24,7 @@ Infinitum was meant to be a web app, that rivals current and future health apps 
 Infinitum is meant to fill the gap between a healthcare provider and receiver so that communication is hiccup free, labs uploaded to one place for all specialists you may need to contact, and trackers for everyday health needs. 
 
 Infinitum is a synchronized app where documents can be safely uploaded and viewed by patients and pulled up in a timely manner where doctors can access previous lab results or files and cross-reference instead of needing files faxed for example. Infinitum is meant to meant to provide ease and convenience for both parties.
+
+Infinitum is meant to allow the evryday person to be more responsible for their medical progress, allowing them to be there every step of the way. from tracking medications to fitness goals. 
+
+Infinitum is also meant for the healthcare providers to be able to upload files and notes, lab and diagnostic results to one place where multiple practitioners are able to access them and have a more in depth idea of a patients health concerns. 
