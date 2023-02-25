@@ -1,6 +1,11 @@
-@import "tablet-styles.css";
 .mobile-content {
   display: none;
+}
+.tablet-content {
+  display: none;
+  margin: 25px;
+  flex-direction: column;
+  gap: 25px;
 }
 body {
   margin: 0px;
@@ -381,4 +386,111 @@ ul {
 
 #menuToggle input:checked ~ ul {
   transform: none;
+}
+
+/* tablet css */
+
+.tablet-content > div {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #a8c7da;
+  display: flex;
+}
+
+/* Top portion */
+.tablet-content > .top-portion {
+  gap: 10px;
+  background-color: #a8c7da;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 1px;
+}
+
+.top-portion > .user-info {
+  display: flex;
+  flex: 1;
+  border-radius: 25px;
+}
+
+.top-portion > .quick-view {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  background-color: #d9d9d9;
+  padding: 10px;
+}
+
+.top-portion > .quick-view > .text {
+  text-align: center;
+}
+
+.top-portion > .quick-view > img {
+  height: 100px;
+  width: 100px;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Middle portion */
+.middle-portion {
+  gap: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a8c7da;
+}
+.middle-portion > div {
+  flex: 1;
+  background-color: #d9d9d9;
+  padding: 5px;
+  border-radius: 25px;
+}
+.middle-portion .header {
+  text-align: center;
+  padding: 5px;
+  text-align: center;
+}
+
+.middle-portion > .upcoming-appointments ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: revert;
+}
+/* End portion */
+.tablet-content .end-portion1 {
+  background-color: transparent;
+}
+.end-portion1 {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+.tablet-content .end-portion2 {
+  background-color: transparent;
+}
+.end-portion2 {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  background-color: #d9d9d9;
+  align-items: center;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #a8c7da;
+}
+.buttons > img {
+  height: 100px;
+  width: 100px;
 }
